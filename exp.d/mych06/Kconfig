@@ -1,0 +1,5 @@
+config GLOBAMEM
+    tristate "globalmem test"
+    default m
+    ---help---
+    globalmem driver example.
