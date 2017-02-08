@@ -1,5 +1,5 @@
 qemu-system-arm \
-    -smp 1 \
-    -M vexpress-a15 \
-    -serial stdio \
+    -M vexpress-a9 \
+    -nographic \
+    -m 512M \
     -kernel u-boot
