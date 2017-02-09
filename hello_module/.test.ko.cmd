@@ -1,1 +1,0 @@
-cmd_/home/aggresss/workspace/LKDemo/hello_module/test.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/aggresss/workspace/LKDemo/hello_module/test.ko /home/aggresss/workspace/LKDemo/hello_module/test.o /home/aggresss/workspace/LKDemo/hello_module/test.mod.o

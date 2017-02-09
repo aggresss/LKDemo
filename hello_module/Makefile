@@ -20,6 +20,6 @@ KDIR := /lib/modules/$(KVER)/build
 all:
 	$(MAKE) -C $(KDIR) M=$(CURDIR) modules
 clean:
-	rm -rf *. *.o *.ko *.mod.c *.order *.symvers
+	@rm -rf .tmp_* .*o.cmd *.o *.ko *.mod.c *.order *.symvers
 
 endif
