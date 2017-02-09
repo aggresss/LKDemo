@@ -1,0 +1,1 @@
+cmd_../LKDemo/hello_module//test_module.ko := arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o ../LKDemo/hello_module//test_module.ko ../LKDemo/hello_module//test_module.o ../LKDemo/hello_module//test_module.mod.o

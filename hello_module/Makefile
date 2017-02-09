@@ -8,7 +8,7 @@
 
 ifneq ($(KERNELRELEASE),)
 
-MODULE_NAME := test
+MODULE_NAME := test_module
 $(MODULE_NAME)-objs := hello.o
 obj-m += $(MODULE_NAME).o
 
