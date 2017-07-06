@@ -10,3 +10,5 @@ u-boot
 *.ko
 *.order
 *.symvers
+.*o.cmd
+.temp_*
