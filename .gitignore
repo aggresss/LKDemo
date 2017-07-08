@@ -1,5 +1,6 @@
 # ignore for qemu
 *.img*
+!vexpress.img
 *.bin
 *.dtb
 zImage
